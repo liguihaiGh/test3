@@ -8,7 +8,10 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+#先安装一次这个验证表单插件(指定这个版本，不然验证表单无法正常显示中文提示)
+npm install vee-validate@2.0.0-rc.25 
+
+# serve with hot reload at localhost:8888
 npm run dev
 
 # build for production with minification
